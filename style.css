@@ -9,7 +9,7 @@ body {
 	background-size: cover;                      
     background-repeat: no-repeat;
 	height: 100%;
-	width: 100%;
+	min-width: 100%;
 	padding; 0;
 	margin: 0;
 }
@@ -24,12 +24,6 @@ body {
 	margin: auto;
 }
 
-footer {
-	left: 0;
-	right: 0;
-	bottom: 0;
-}
-
 .embed-responsive-item {
 	float: right;
 }
@@ -39,8 +33,10 @@ footer {
 }
 
 footer {
-	width: 1000px;
 	background-color: white;
 	border: 1px solid #EEEEEE;
 	margin: auto;
+	bottom: 0;
+	left: 0;
+	right: 0;
 }
