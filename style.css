@@ -15,11 +15,29 @@ body {
 }
 
 .wrapper {
-	width: 970px;
+	width: 1000px;
+	background-color: white;
+	border: 1px solid #EEEEEE;
+	margin: auto;
 }
 
 footer {
 	left: 0;
 	right: 0;
 	bottom: 0;
+}
+
+.embed-responsive-item {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+footer {
+	width: 1000px;
+	background-color: white;
+	border: 1px solid #EEEEEE;
+	margin: auto;
 }
