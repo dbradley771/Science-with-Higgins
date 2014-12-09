@@ -14,8 +14,11 @@ body {
 	margin: 0;
 }
 
-.wrapper {
+.page-width {
 	width: 1000px;
+}
+
+#wrapper {
 	background-color: white;
 	border: 1px solid #EEEEEE;
 	margin: auto;
