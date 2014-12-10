@@ -3,12 +3,12 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	
 	<title>Home - Science With Higgins</title>
 	
 	<!-- Bootstrap -->
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="dist/css/bootstrap.min.css">
     
     <!-- Our CSS and JavaScript -->
 	<link rel="stylesheet" type="text/css" href="style.css">
@@ -23,27 +23,41 @@
 </head>
 <body>
 	<div id="body-container">
-		<header id="static-wrapper">
-			<div id="static-content" class="page-width">
-				STATIC WRAPPER IS HERE AND NOT MOVING
-			</div>
-		</header>
-		<header id="float-wrapper">
-			<div id="float-content" class="page-width">
-				I float. Flooooooooat.
-			</div>
-		</header>
-		<div id="page-container" class="page-width">
+		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		  <div class="container">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand" href="#">Science with Higgins</a>
+		    </div>
+		
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      <ul class="nav navbar-nav navbar-right">
+		        <li><a href="index.html">Home</a></li>
+		        <li><a href="about-me.html">About Me</a></li>
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container -->
+		</nav>
+		<div id="page-container" class="container">
 			<div>This is the home page</div>
 		
 			<p>Testing commit/merge testing</p>
 		</div>
 	</div>
 	
-	<footer class="page-width">
-		<p>Materials from Science with Higgins use Creative Commons, Public Domain and links to Copyrighted 
-		resources! Make sure that you use the attributed resources provided with each concept video, activity, 
-		lab or simulation.</p>
+	<footer>
+		<div id="footer-content" class="container">
+			Materials from Science with Higgins use Creative Commons, Public Domain and links to Copyrighted 
+			resources! Make sure that you use the attributed resources provided with each concept video, activity, 
+			lab or simulation.
+		</div>
 	</footer>
 	
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

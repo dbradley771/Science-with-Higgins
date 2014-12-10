@@ -1,28 +1,40 @@
-html {
+html, body, #body-container {
 	height: 100%;
-	width: 100%;
 }
 
 body {
-	background: gray;
-	background-image: url("astronomy_background.jpg");
-	background-size: cover;                      
-    background-repeat: no-repeat;
+	background: #BBBBBB url("astronomy_background.jpg") no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 	min-height: 100%;
-	height: auto;
 	width: 100%;
-	padding: 0;
 	margin: 0;
+	padding: 0;
+	padding-top: 70px;
+	border: 0;
 }
 
 .page-width {
 	width: 1000px;
 }
 
+#body-container {
+	height: auto;
+	min-height: 100%;
+}
+
+#content-container, #body-container {
+	padding-bottom: 191px;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
 /* Start Header CSS */
 #static-wrapper {
 	background-color: white;
-	border: 1px solid #EEEEEE;
+	border-bottom: 1px solid #EEEEEE;
 	left: 0;
 	right: 0;
 	top: 0;
@@ -32,17 +44,19 @@ body {
 
 #static-content {
 	margin: auto;
+	padding: 10px;
 }
 
 #float-wrapper {
 	background-color: white;
-	border: 1px solid #EEEEEE;
+	border-bottom: 1px solid #EEEEEE;
 	width: 100%;
 	height: 50px;
 }
 
 #float-content {
 	margin: auto;
+	padding: 10px;
 }
 /* End Header CSS */
 
@@ -50,7 +64,8 @@ body {
 #page-container {
 	background-color: white;
 	border: 1px solid #EEEEEE;
-	margin: auto;
+	margin: 10px auto;
+	padding: 10px;
 	height: auto;
 	min-height: 100%;
 }
@@ -66,11 +81,13 @@ body {
 
 /* Start Footer CSS */
 footer {
-	background-color: white;
-	border: 1px solid #EEEEEE;
-	margin: auto;
-	bottom: 0;
-	left: 0;
-	right: 0;
+	margin-top: -61px;
+	background-color: #ffffff;
+	border-top: 1px solid #EEEEEE;
+}
+
+#footer-content {
+	margin: 0 auto;
+	padding: 10px 0;
 }
 /* End Footer CSS */
