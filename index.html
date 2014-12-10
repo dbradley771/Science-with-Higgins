@@ -22,17 +22,25 @@
     <![endif]-->
 </head>
 <body>
-	<header>
-		Headers are a terrible thing to mess up
-	</header>
-	
-	<div id="wrapper" class="page-width">
-		<div>This is the home page</div>
-	
-		<p>Testing commit/merge testing</p>
+	<div id="body-container">
+		<header id="static-wrapper">
+			<div id="static-content" class="page-width">
+				STATIC WRAPPER IS HERE AND NOT MOVING
+			</div>
+		</header>
+		<header id="float-wrapper">
+			<div id="float-content" class="page-width">
+				I float. Flooooooooat.
+			</div>
+		</header>
+		<div id="page-container" class="page-width">
+			<div>This is the home page</div>
+		
+			<p>Testing commit/merge testing</p>
+		</div>
 	</div>
 	
-	<footer>
+	<footer class="page-width">
 		<p>Materials from Science with Higgins use Creative Commons, Public Domain and links to Copyrighted 
 		resources! Make sure that you use the attributed resources provided with each concept video, activity, 
 		lab or simulation.</p>

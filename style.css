@@ -8,8 +8,9 @@ body {
 	background-image: url("astronomy_background.jpg");
 	background-size: cover;                      
     background-repeat: no-repeat;
-	height: 100%;
-	min-width: 100%;
+	min-height: 100%;
+	height: auto;
+	width: 100%;
 	padding; 0;
 	margin: 0;
 }
@@ -18,20 +19,52 @@ body {
 	width: 1000px;
 }
 
-#wrapper {
+/* Start Header CSS */
+#static-wrapper {
 	background-color: white;
 	border: 1px solid #EEEEEE;
+	left: 0;
+	right: 0;
+	top: 0;
+	width: 100%;
+	height: 100px;
+}
+
+#static-content {
 	margin: auto;
 }
 
-.embed-responsive-item {
-	float: right;
+#float-wrapper {
+	background-color: white;
+	border: 1px solid #EEEEEE;
+	width: 100%;
+	height: 50px;
+}
+
+#float-content {
+	margin: auto;
+}
+/* End Header CSS */
+
+/* Start Content CSS */
+#page-container {
+	background-color: white;
+	border: 1px solid #EEEEEE;
+	margin: auto;
+	height: auto;
+	min-height: 100%;
 }
 
 .clear {
 	clear: both;
 }
 
+.embed-responsive-item {
+	float: right;
+}
+/* End Content CSS */
+
+/* Start Footer CSS */
 footer {
 	background-color: white;
 	border: 1px solid #EEEEEE;
@@ -40,3 +73,4 @@ footer {
 	left: 0;
 	right: 0;
 }
+/* End Footer CSS */
