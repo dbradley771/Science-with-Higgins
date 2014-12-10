@@ -19,6 +19,10 @@ body {
 	width: 1000px;
 }
 
+#module-menu {
+	text-align: center;
+}
+
 /* Start Header CSS */
 #static-wrapper {
 	background-color: white;
