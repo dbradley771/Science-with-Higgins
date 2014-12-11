@@ -7,7 +7,6 @@ body {
 	background: gray;
 	background-image: url("astronomy_background.jpg");
 	background-size: cover;                      
-    background-repeat: no-repeat;
 	min-height: 100%;
 	height: auto;
 	width: 100%;
@@ -23,6 +22,9 @@ body {
 	text-align: center;
 }
 
+.accordion-text {
+	font-size: 26px;
+}
 /* Start Header CSS */
 #static-wrapper {
 	background-color: white;
