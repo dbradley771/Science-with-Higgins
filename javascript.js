@@ -3,3 +3,14 @@ $(document).ready(function() {
     //clearStyle: true, autoHeight: false makes the space of the accordion drop-down space equal to the 
     //height of only its paragraphs instead of the height of the largest accordion drop-down
 });
+
+$(document).ready(function(){
+	$('#circulating-planet').circulate({
+		speed: 1500,                  // Speed of each quarter segment of animation, 1000 = 1 second
+	    height: 100,                 // Distance vertically to travel
+	    width: 1350,                  // Distance horizontally to travel
+	    sizeAdjustment: 160,         // Percentage to grow or shrink
+	    loop: true,                 // Circulate continuously
+	    zIndexValues: [-1, 1, 1, -1]   // Sets z-index value at each stop of animation
+	});
+});

@@ -25,6 +25,13 @@ body {
 	min-height: 100%;
 }
 
+#circulating-planet {
+	height: 60px;
+	width: 60px;
+	left: 50%;
+	position: absolute;
+}
+
 #content-container, #body-container {
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
@@ -37,6 +44,7 @@ body {
 .accordion-text {
 	font-size: 26px;
 }
+
 /* Start Header CSS */
 #static-wrapper {
 	background-color: white;
