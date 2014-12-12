@@ -5,6 +5,7 @@ html, body, #body-container {
 body {
 	background: #BBBBBB url("astronomy_background.jpg");
 	background-size: cover;
+	background-attachment: fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -12,7 +13,7 @@ body {
 	width: 100%;
 	height: auto;
 	margin: 0;
-	padding: 50px 0;
+	padding: 50px 0 0 0;
 	border: 0;
 }
 
@@ -76,12 +77,10 @@ body {
 
 /* Start Content CSS */
 #page-container {
-	background-color: white;
-	border: 1px solid #EEEEEE;
-	margin: 10px auto;
-	padding: 10px;
-	height: auto;
-	min-height: 100%;
+	background-color: #f8f8f8;
+	border-top: 1px solid #e7e7e7;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 .clear {
@@ -95,13 +94,12 @@ body {
 
 /* Start Footer CSS */
 footer {
-	background-color: #ffffff;
-	border-top: 1px solid #EEEEEE;
+	border-top: 1px solid #e7e7e7;
+	background-color: #f8f8f8;
 }
 
 #footer-content {
 	margin: 0 auto;
 	padding: 10px 0;
-	height: 50px;
 }
 /* End Footer CSS */
