@@ -4,7 +4,7 @@ html, body, #body-container {
 }
 
 body {
-	background: #BBBBBB url("astronomy_background.jpg");
+	background: #BBBBBB;
 	background-size: cover;
 	background-attachment: fixed;
 	-webkit-background-size: cover;
@@ -32,6 +32,27 @@ body {
 	width: 60px;
 	left: 50%;
 	position: absolute;
+}
+
+#circulating-planet-sm {
+	height: 60px;
+	width: 60px;
+	left: 30%;
+	text-align: center;
+	position: absolute;
+}
+
+.background {
+	background:
+		url("images/background-2.jpg")
+		repeat;
+	background-size: 100% auto;
+	position: fixed;
+	width: 100%;
+	height: 200%;
+	top: 0;
+	left: 0;
+	z-index: -1;
 }
 
 #content-container, #body-container {
