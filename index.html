@@ -7,6 +7,18 @@
 	
 	<title>Home - Science With Higgins</title>
 	
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- jQuery UI -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="dist/js/bootstrap.min.js"></script>
+    <script src="javascript.js"></script>
+    <!-- Necessary for circulate effect -->
+	<script type='text/javascript' src='circulate/js/jquery.easing.1.2.js'></script>
+	<script type='text/javascript' src='circulate/js/jquery.circulate.js'></script>
+
+	
 	<!-- Bootstrap -->
 	<link rel="stylesheet" type="text/css" href="dist/css/bootstrap.min.css">
 	
@@ -21,8 +33,9 @@
     <![endif]-->
 </head>
 <body>
-
-	<!--<div id="body-container">-->
+	<div class="background"></div>
+	<br />
+	<div id="body-container">
 		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 		  <div class="container">
 		    <!-- Brand and toggle get grouped for better mobile display -->
@@ -47,12 +60,12 @@
 		</nav>
 		<div id="page-container" class="container">
 			
-			<div  class="page-header">
-			
+			<div class="page-header">
 				<h3 style="text-align: center">Welcome to the Astronomy With Higgins Website!</h3>
 			</div>
-			<img src="images/planet.png" id="circulating-planet" />
-			<div id="module-menu">	<!-- Module Menu Accordian -->
+			<img src="images/planet.png" id="circulating-planet" class="hidden-xs hidden-sm"/>
+			<img src="images/planet.png" id="circulating-planet-sm" class="hidden-md hidden-lg"/>
+			<div id="module-menu" >	<!-- Module Menu Accordian -->
             <h3><img src="images/module-0_tab.jpg" /></h3>
             <div>
                 <p class="accordion-text">
@@ -272,7 +285,7 @@
                 </p>
             </div>
         </div>
-	<!-- </div> --><!-- body-container -->
+	</div> <!-- body-container -->
 	
 	<footer>
 		<div id="footer-content" class="container">
@@ -281,15 +294,7 @@
 			lab or simulation.
 		</div>
 	</footer>
-	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <!-- jQuery UI -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="dist/js/bootstrap.min.js"></script>
-    <script src="javascript.js"></script>
-    <!-- Necessary for circulate effect -->
-	<script type='text/javascript' src='circulate/js/jquery.easing.1.2.js'></script>
-	<script type='text/javascript' src='circulate/js/jquery.circulate.js'></script>
+
+	
 </body>
 </html>
