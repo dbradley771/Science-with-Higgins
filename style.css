@@ -48,9 +48,48 @@ body {
 
 .accordion-text {
 	font-size: 26px;
+	margin-left: 5px;
+	margin-right: 5px;
 }
 
 /* Start Header CSS */
+.navbar-default {
+	background-color: #4285f4;
+	border-color: #2F6DD3;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: #2F6DD3;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background-color: #0e63f1;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	border-color: #2F6DD3;
+}
+
+.navbar-default .navbar-brand {
+	color: #fff;	
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+	color: #e4e4e4;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+	color: #e4e4e4;
+}
+
 #static-wrapper {
 	background-color: white;
 	border-bottom: 1px solid #EEEEEE;
@@ -94,6 +133,20 @@ body {
 .embed-responsive-item {
 	float: right;
 }
+
+.btn-lg, .btn-group-lg>.btn {
+	border-radius:4px;
+}
+
+.btn-primary {
+	background-color: #999999;
+	border-color: #777777;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+	background-color: #777777;
+	border-color: #555555;
+}
 /* End Content CSS */
 
 /* Start Footer CSS */
@@ -105,5 +158,6 @@ footer {
 #footer-content {
 	padding-top: 10px;
 	padding-bottom: 10px;
+	text-align:center;
 }
 /* End Footer CSS */
