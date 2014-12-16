@@ -1,17 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	
 	<title>M0:L2 - Astronomy With Higgins</title>
 	
-	<!-- Bootstrap -->
-    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
-    
-    <!-- Our CSS and JavaScript -->
-	<link type= "text/css" rel= "stylesheet.css" href= "style.css"/>
-	<script src="javascript.js"></script>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- jQuery UI -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../dist/js/bootstrap.min.js"></script>
+    <script src="../javascript.js"></script>
+    <!-- Necessary for circulate effect -->
+	<script type='text/javascript' src='../circulate/js/jquery.easing.1.2.js'></script>
+	<script type='text/javascript' src='../circulate/js/jquery.circulate.js'></script>
+
 	
+	<!-- Bootstrap -->
+	<link rel="stylesheet" type="text/css" href="../dist/css/bootstrap.min.css">
+	
+    <!-- Our CSS and JavaScript -->
+	<link rel="stylesheet" type="text/css" href="../style.css">
+
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -20,21 +33,55 @@
     <![endif]-->
 </head>
 <body>
-	<header>
-		Header
-	</header>
+	<div class="background"></div>
+	<br />
+	<div id="body-container">
+		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		  <div class="container">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand" href="../index.html">Astronomy with Higgins</a>
+		    </div>
+		
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      <ul class="nav navbar-nav navbar-right">
+		        <li><a href="../index.html">Home</a></li>
+		        <li><a href="../about-me.html">About Me</a></li>
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container -->
+		</nav>
+		<div id="page-container" class="container">
+			<div class="page-header">
+				<h3 style="text-align: center">Welcome to Module 0: Introduction!</h3>
+			</div>
+			<img src="../images/planet.png" id="circulating-planet" class="hidden-xs hidden-sm"/>
+			<img src="../images/planet.png" id="circulating-planet-sm" class="hidden-md hidden-lg"/>
+			<h4>Lesson 2: The Cornell Note Taking System</h4>
+			<p>The note taking system used in this course will help you retain the information. This course is designed 
+			around concepts and being able to describe them, not regurgitating definitions or memorizing facts.</p>
+			<div class="embed-responsive embed-responsive-16by9" >
+  				<iframe class="embed-responsive-item" width="560" height="315" src="http://www.youtube.com/embed/oo8uCJlz_lk" ></iframe>
+			</div> 
+			<div class="clear"></div>
+        </div><!-- page-container -->
+	</div> <!-- body-container -->
 	
 	<footer>
-		<p>Materials from Science with Higgins use Creative Commons, Public Domain and links to Copyrighted 
-		resources! Make sure that you use the attributed resources provided with each concept video, activity, 
-		lab or simulation.</p>
+		<div id="footer-content" class="container">
+			Materials from Science with Higgins use Creative Commons, Public Domain and links to Copyrighted 
+			resources! Make sure that you use the attributed resources provided with each concept video, activity, 
+			lab or simulation.
+		</div>
 	</footer>
+
 	
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <!-- jQuery UI -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="dist/js/bootstrap.min.js"></script>
 </body>
 </html>

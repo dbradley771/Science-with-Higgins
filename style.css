@@ -33,8 +33,8 @@ body {
 }
 
 #circulating-planet-sm {
-	height: 60px;
-	width: 60px;
+	height: 30px;
+	width: 30px;
 	left: 30%;
 	text-align: center;
 	position: absolute;
@@ -42,7 +42,7 @@ body {
 
 .background {
 	background:
-		url("images/background-2.jpg")
+		url("images/background.jpg")
 		repeat;
 	background-size: 100% auto;
 	position: fixed;
@@ -52,6 +52,85 @@ body {
 	left: 0;
 	z-index: -1;
 }
+
+/*Placement of individual planets*/
+#blue-green {
+	width: 50px;
+	height: 50px;
+	left: 1%;
+	top: 20%;
+	position: fixed;
+	z-index: -1;
+}
+#blue {
+	width: 30px;
+	height: 30px;
+	left: 3%;
+	top: 10%;
+	position: fixed;
+	z-index: -1;
+}
+#burning-sun {
+	width: 70px;
+	height: 70px;
+	left: 5%;
+	top: 60%;
+	position: fixed;
+	z-index: -1;
+}
+#earth {
+	width: 50px;
+	height: 50px;
+	left: 7%;
+	top: 20%;
+	position: fixed;
+	z-index: -1;
+}
+
+#green-sun {
+	width: 50px;
+	height: 50px;
+	right: 1%;
+	top: 10%;
+	position: fixed;
+	z-index: -1;
+}
+#orange-planet{
+	width: 30px;
+	height: 30px;
+	right: 3%;
+	top: 20%;
+	position: fixed;
+	z-index: -1;
+}
+
+#red-moon {
+	width: 30px;
+	height: 30px;
+	right: 5%;
+	top: 30%;
+	position: fixed;
+	z-index: -1;
+}
+#tan-planet{
+	width: 80px;
+	height: 80px;
+	right: 7%;
+	top:40%;
+	position: fixed;
+	z-index: -1;
+}
+
+#vulcan-planet{
+	width: 60px;
+	height: 60px;
+	right: 10%;
+	top:50%;
+	position: fixed;
+	z-index: -1;
+}
+
+/*End of placement of planets*/
 
 #content-container, #body-container {
 	-moz-box-sizing: border-box;
