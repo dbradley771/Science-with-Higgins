@@ -42,5 +42,5 @@ $(window).scroll(function(e){
 
 function parallax(){
     var scrolled = $(window).scrollTop();
-    $('.background').css('top',-(scrolled*.2)+'px');
+    $('.background').css('top',-(scrolled*.15)+'px');
 }
