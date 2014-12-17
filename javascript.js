@@ -36,9 +36,11 @@ $(window).scroll(function(e){
 	  parallaxVulcanPlanet();
 	});
 
+//Makes the background move at a different rate than the rest of the page when scrolling
 function parallax(){
     var scrolled = $(window).scrollTop();
     $('.background').css('top',-(scrolled*.15)+'px');
+    //The line above tells how far to move the element from the top of the page 
 }
 
 function parallaxBlueGreenPlanet(){
