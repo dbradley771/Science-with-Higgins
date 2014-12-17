@@ -31,13 +31,15 @@ body {
 	height: 60px;
 	width: 60px;
 	left: 50%;
+	text-align: center;
 	position: absolute;
 }
 
 #circulating-planet-sm {
 	height: 30px;
 	width: 30px;
-	left: 30%;
+	left: 50%;
+	top: 2%;
 	text-align: center;
 	position: absolute;
 }
