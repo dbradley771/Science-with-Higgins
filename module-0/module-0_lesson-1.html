@@ -34,9 +34,8 @@
 </head>
 <body>
 	<div class="background"></div>
-	<br />
 	<div id="body-container">
-		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<nav class="navbar navbar-default navbar-fixed-top" id="navbar" role="navigation">
 		  <div class="container">
 		    <!-- Brand and toggle get grouped for better mobile display -->
 		    <div class="navbar-header">
@@ -59,16 +58,33 @@
 		  </div><!-- /.container -->
 		</nav>
 		<div id="page-container" class="container">
+		<ol class="breadcrumb">
+  				<li><a href="../index.html">Home</a></li>
+  				<li class="active">Module 0</li>
+  				<li class="active">Lesson 1</li>
+			</ol>
 			<div class="page-header">
 				<h3 style="text-align: center">Welcome to Module 0: Introduction!</h3>
 			</div>
 			<img src="../images/planet.png" id="circulating-planet" class="hidden-xs hidden-sm"/>
 			<img src="../images/planet.png" id="circulating-planet-sm" class="hidden-md hidden-lg"/>
-			<h4>Lesson 1: Introduction to Astronomy</h4>
-			<div class="embed-responsive embed-responsive-16by9" >
-  				<iframe class="embed-responsive-item" src="http://www.youtube.com/embed/fuWPdtSWVFI?rel=0" ></iframe>
-			</div> 
-			<div class="clear"></div>
+			
+			<div class="row">
+				<div class="col-xs-12 col-md-4">
+					<h4>Lesson 1: Introduction to Astronomy</h4>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-md-8 col-md-push-4">
+					<div class="embed-responsive embed-responsive-16by9" >
+	  					<iframe class="embed-responsive-item" src="http://www.youtube.com/embed/fuWPdtSWVFI?rel=0" ></iframe>
+					</div>
+				</div>
+				<div class="col-xs-12 col-md-4 col-md-pull-8">
+					<p><a href="a_intro_small.mp4">Right-click or ctrl-click this link to download </a></p>
+    				<p>View this video on <a href="http://www.youtube.com/watch?v=fuWPdtSWVFI&amp;edufilter=EkJrW2jStxmAb4rXAFll2w&amp;safe=active">YouTube</a>&nbsp;(education firewall friendly link)</p>
+				</div>
+			</div>
         </div><!-- page-container -->
 	</div> <!-- body-container -->
 	
