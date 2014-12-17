@@ -16,7 +16,7 @@ $(document).ready(function(){
 	$('#circulating-planet-sm').circulate({
 		speed: 1500,                  // Speed of each quarter segment of animation, 1000 = 1 second
 	    height: 50,                 // Distance vertically to travel
-	    width: 200,                  // Distance horizontally to travel
+	    width: 250,                  // Distance horizontally to travel
 	    sizeAdjustment: 160,         // Percentage to grow or shrink
 	    loop: true,                 // Circulate continuously
 	    zIndexValues: [-1, 1, 1, -1]   // Sets z-index value at each stop of animation
@@ -36,9 +36,11 @@ $(window).scroll(function(e){
 	  parallaxVulcanPlanet();
 	});
 
+//Makes the background move at a different rate than the rest of the page when scrolling
 function parallax(){
     var scrolled = $(window).scrollTop();
     $('.background').css('top',-(scrolled*.15)+'px');
+    //The line above tells how far to move the element from the top of the page 
 }
 
 function parallaxBlueGreenPlanet(){
