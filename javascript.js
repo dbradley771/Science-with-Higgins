@@ -43,41 +43,41 @@ function parallax(){
 
 function parallaxBlueGreenPlanet(){
     var scrolled = $(window).scrollTop();
-    $('#blue-green').css('top',(scrolled*.20)+'px');
+    $('#blue-green').css('top',(-scrolled*.16 + 210)+'px');
 }
 
 function parallaxplanetsBluePlanet(){
     var scrolled = $(window).scrollTop();
-    $('#blue').css('top',(scrolled*.80)+'px');
+    $('#blue').css('top',(-scrolled*.18 + 120)+'px');
 }
 
 function parallaxBurningSun(){
     var scrolled = $(window).scrollTop();
-    $('#burning-sun').css('top',(scrolled*.55)+'px');
+    $('#burning-sun').css('top',(-scrolled*.11 + 500)+'px');
 }
 function parallaxEarth(){
     var scrolled = $(window).scrollTop();
-    $('#earth').css('top',(scrolled*.25)+'px');
+    $('#earth').css('top',(-scrolled*.12 + 720)+'px');
 }
 function parallaxGreenSun(){
     var scrolled = $(window).scrollTop();
-    $('#green-sun').css('top',(scrolled*.75)+'px');
+    $('#green-sun').css('top',(-scrolled*.08 + 200)+'px');
 }
 function parallaxOrangePlanet(){
     var scrolled = $(window).scrollTop();
-    $('#orange-planet').css('top',(scrolled*.60)+'px');
+    $('#orange-planet').css('top',(-scrolled*.20 + 325)+'px');
 }
 function parallaxRedMoon(){
     var scrolled = $(window).scrollTop();
-    $('#red-moon').css('top',(scrolled*.35)+'px');
+    $('#red-moon').css('top',(-scrolled*.25 + 628)+'px');
 }
 function parallaxTanPlanet(){
     var scrolled = $(window).scrollTop();
-    $('#tan-planet').css('top',(scrolled*.40)+'px');
+    $('#tan-planet').css('top',(-scrolled*.21 + 500)+'px');
 }
 function parallaxVulcanPlanet(){
     var scrolled = $(window).scrollTop();
-    $('#vulcan-planet').css('top',(scrolled*1.25)+'px');
+    $('#vulcan-planet').css('top',(-scrolled*.15  + 150)+'px');
 }
 
 $(window).scroll(function(e){

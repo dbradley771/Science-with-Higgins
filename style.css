@@ -58,7 +58,7 @@ body {
 	width: 50px;
 	height: 50px;
 	left: 1%;
-	top: 20%;
+	top: 210px;
 	position: fixed;
 	z-index: -1;
 }
@@ -66,7 +66,7 @@ body {
 	width: 30px;
 	height: 30px;
 	left: 3%;
-	top: 10%;
+	top: 120px;
 	position: fixed;
 	z-index: -1;
 }
@@ -74,7 +74,7 @@ body {
 	width: 70px;
 	height: 70px;
 	left: 5%;
-	top: 60%;
+	top: 500px;
 	position: fixed;
 	z-index: -1;
 }
@@ -82,7 +82,7 @@ body {
 	width: 50px;
 	height: 50px;
 	left: 7%;
-	top: 20%;
+	top: 720px;
 	position: fixed;
 	z-index: -1;
 }
@@ -91,7 +91,7 @@ body {
 	width: 50px;
 	height: 50px;
 	right: 1%;
-	top: 10%;
+	top: 200px;
 	position: fixed;
 	z-index: -1;
 }
@@ -99,7 +99,7 @@ body {
 	width: 30px;
 	height: 30px;
 	right: 3%;
-	top: 20%;
+	top: 325px;
 	position: fixed;
 	z-index: -1;
 }
@@ -108,7 +108,7 @@ body {
 	width: 30px;
 	height: 30px;
 	right: 5%;
-	top: 30%;
+	top: 628px;
 	position: fixed;
 	z-index: -1;
 }
@@ -116,7 +116,7 @@ body {
 	width: 80px;
 	height: 80px;
 	right: 7%;
-	top:40%;
+	top: 500px;
 	position: fixed;
 	z-index: -1;
 }
@@ -125,7 +125,7 @@ body {
 	width: 60px;
 	height: 60px;
 	right: 10%;
-	top:50%;
+	top: 150px;
 	position: fixed;
 	z-index: -1;
 }
@@ -165,7 +165,7 @@ background-color: #fff;
 }
 
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-	background-color: #0e63f1;
+	background-color: #0d5bdd;
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
@@ -241,13 +241,12 @@ background-color: #fff;
 }
 
 .btn-primary {
-	background-color: #999999;
-	border-color: #777777;
+	background-color: #4285f4;
+	border-color: #2F6DD3;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
-	background-color: #777777;
-	border-color: #555555;
+	background-color: #0d5bdd;
 }
 /* End Content CSS */
 
